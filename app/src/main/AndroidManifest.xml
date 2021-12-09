@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.niu.cs.z1887998.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="quizzes"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".FifthWeek"
+            android:label="5th Week Quiz"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Result" />
+        <activity
+            android:name=".ForthWeek"
+            android:label="@string/forth_title"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".ThirdWeek"
+            android:label="@string/third_title"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".SecondWeek"
+            android:label="@string/second_title"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".FirstWeek"
+            android:label="@string/first_title"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">quizzes</string>
+    <string name="spinner_title">Select The Week</string>
+    <string name="first_title">1st Week Quiz</string>
+    <string name="second_title">2nd Week Quiz</string>
+    <string name="third_title">3rd Week Quiz</string>
+    <string name="forth_title">4th Week Quiz</string>
+    <string name="fifth_title">5th Week Quiz</string>
+    <string name="select_the_week_to_the_quiz">Select The Week To The Quiz:</string>
+    <string name="next">NEXT</string>
+</resources>
